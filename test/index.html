@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="icon" href="/image/setting.jpg" type="image/x-icon">
+</head>
+<body>
+    <header class="header">
+
+        <!-- Left window start here -->
+
+        <section class="dashboard">
+            <div class="logo-block">
+                <img class="logo-image" src="/image/setting.jpg" alt="logo">
+                <div class="logo-text">
+                    <p class="logo-title">Dashboard</p>
+                    <p class="logo-subtitle">v.01</p>
+                </div>    
+            </div>
+            <div class="burger-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+                <div class="menu-block">
+                    <a href="#" class="dashboard-link">
+                        <img class="dashboard-link__image" src="/image/key-square.jpg" alt="key">
+                        <p class="dashboard-link__text">Dashboard</p>
+                    </a>
+                    <a href="#" class="link-active">
+                        <div class="link-active__block">
+                            <img class="link-active__image" src="/image/product.jpg" alt="product">
+                            <p class="link-active__text">Product</p>
+                        </div>    
+                        <div class="chevron-block">
+                            <img class="chevron-right" src="/image/chevron-right.jpg" alt="chevron-right">
+                            <img class="chevron-right-white" src="/image/chevron-right-white.jpg" alt="chevron-right-white">
+                        </div>    
+                    </a>
+                    <a href="#" class="customers-link">
+                        <img class="customers-link__image" src="/image/user-square.jpg" alt="user">
+                        <p class="customers-link-text">Customers</p>
+                        <img class="chevron-customers" src="/image/chevron-right-white.jpg" alt="chevron-right-white">
+                    </a>
+                    <a href="#" class="link-active">
+                        <div class="link-active__block">
+                            <img class="link-active__image" src="/image/wallet-money.jpg" alt="wallet-money">
+                            <p class="link-active__text">Income</p>
+                        </div>    
+                        <div class="chevron-block">
+                            <img class="chevron-right" src="/image/chevron-right.jpg" alt="chevron-right">
+                            <img class="chevron-right-white" src="/image/chevron-right-white.jpg" alt="chevron-right-white">
+                        </div>  
+                    </a>
+                    <a href="#" class="link-active">
+                        <div class="link-active__block">
+                            <img class="link-active__image" src="/image/discount-shape.jpg" alt="discount-shape">
+                            <p class="link-active__text">Promote</p>
+                        </div>    
+                        <div class="chevron-block">
+                            <img class="chevron-right" src="/image/chevron-right.jpg" alt="chevron-right">
+                            <img class="chevron-right-white" src="/image/chevron-right-white.jpg" alt="chevron-right-white">
+                        </div>  
+                    </a>
+                    <a href="#" class="link-active">
+                        <div class="link-active__block">
+                            <img class="link-active__image" src="/image/message-question.jpg" alt="message-question">
+                            <p class="link-active__text">Help</p>
+                        </div>   
+                        <div class="chevron-block">
+                            <img class="chevron-right" src="/image/chevron-right.jpg" alt="chevron-right">
+                            <img class="chevron-right-white" src="/image/chevron-right-white.jpg" alt="chevron-right-white">
+                        </div>  
+                    </a>  
+            </div>
+            <div class="dashboard-footer">
+                <img class="footer-image" src="/image/photo.jpg" alt="photo">
+                <div class="footer-text">
+                    <p class="footer-text__main">Evano</p>
+                    <p class="footer-text__desc">Project Manager</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Right window start here -->
+
+        <section class="customers" id="customersSection">
+            <h1 class="customers-title">Hello Evano 👋🏼,</h1>
+            <div class="customers-container">
+                <div class="container-top">
+                    <div class="container-top-text">
+                        <h1 class="container-top__title">All Customers</h1>
+                        <p class="container-top__description">Active Members</p>
+                    </div>    
+                    <form action="/search" method="get">
+                        <input type="text" name="search" placeholder="Search">
+                    </form>
+                </div>
+                <div class="container-info__menu">
+                    <p class="container-info__text name">Customer Name</p>
+                    <p class="container-info__text company">Company</p>
+                    <p class="container-info__text phone">Phone Number</p>
+                    <p class="container-info__text email">Email</p>
+                    <p class="container-info__text country">Country</p>
+                    <p class="container-info__text status">Status</p>
+                </div>
+                <hr>
+                <div class="user">
+                    <div class="user-container">
+                        <p class="user-container__text name">Jane Cooper</p>
+                        <p class="user-container__text company">Microsoft</p>
+                        <p class="user-container__text phone">(225) 555-0118</p>
+                        <p class="user-container__text email">jane@microsoft.com</p>
+                        <p class="user-container__text country">United States</p>
+                        <a href="#" class="active-btn">Active</a>
+                    </div>
+                    <hr>
+                    <div class="user-container">
+                        <p class="user-container__text name">Floyd Miles</p>
+                        <p class="user-container__text company">Yahoo</p>
+                        <p class="user-container__text phone">(205) 555-0100</p>
+                        <p class="user-container__text email">floyd@yahoo.com</p>
+                        <p class="user-container__text country">Kiribati</p>
+                        <a href="#" class="inactine-btn">Inactive</a>
+                    </div>
+                    <hr class="hr-user">
+                    <div class="user-container">
+                        <p class="user-container__text name">Ronald Richards</p>
+                        <p class="user-container__text company">Adobe</p>
+                        <p class="user-container__text phone">(302) 555-0107</p>
+                        <p class="user-container__text email">ronald@adobe.com</p>
+                        <p class="user-container__text country">Israel</p>
+                        <a href="#" class="inactine-btn">Inactive</a>
+                    </div>
+                    <hr class="hr-user">
+                    <div class="user-container">
+                        <p class="user-container__text name">Marvin McKinney</p>
+                        <p class="user-container__text company">Tesla</p>
+                        <p class="user-container__text phone">(252) 555-0126</p>
+                        <p class="user-container__text email">marvin@tesla.com</p>
+                        <p class="user-container__text country">Iran</p>
+                        <a href="#" class="active-btn">Active</a>
+                    </div>
+                    <hr>
+                    <div class="user-container">
+                        <p class="user-container__text name">Jerome Bell</p>
+                        <p class="user-container__text company">Google</p>
+                        <p class="user-container__text phone">(629) 555-0129</p>
+                        <p class="user-container__text email">jerome@google.com</p>
+                        <p class="user-container__text country">Réunion</p>
+                        <a href="#" class="active-btn">Active</a>
+                    </div>
+                    <hr>
+                    <div class="user-container">
+                        <p class="user-container__text name">Kathryn Murphy</p>
+                        <p class="user-container__text company">Microsoft</p>
+                        <p class="user-container__text phone">(406) 555-0120</p>
+                        <p class="user-container__text email">kathryn@microsoft.com</p>
+                        <p class="user-container__text country">Curaçao</p>
+                        <a href="#" class="active-btn">Active</a>
+                    </div>
+                    <hr>
+                    <div class="user-container">
+                        <p class="user-container__text name">Jacob Jones</p>
+                        <p class="user-container__text company">Yahoo</p>
+                        <p class="user-container__text phone">(208) 555-0112</p>
+                        <p class="user-container__text email">jacob@yahoo.com</p>
+                        <p class="user-container__text country">Brazil</p>
+                        <a href="#" class="active-btn">Active</a>
+                    </div>
+                    <hr>
+                    <div class="user-container">
+                        <p class="user-container__text name">Kristin Watson</p>
+                        <p class="user-container__text company">Facebook</p>
+                        <p class="user-container__text phone">(704) 555-0127</p>
+                        <p class="user-container__text email">kristin@facebook.com</p>
+                        <p class="user-container__text country">Åland Islands</p>
+                        <a href="#" class="inactine-btn">Inactive</a>
+                    </div>
+                    <hr class="hr-user">
+                </div>  
+                <div class="customers-bottom">
+                    <p class="customers-bottom-text">Showing data 1 to 8 of  256K entries</p>
+                    <div class="customers-bottom__pages">
+                        <a class="left-block" href="#">
+                            <p class="left-block__text"><</p>
+                        </a>
+                        <a class="page-active" href="#">
+                            <p class="page-active__text">1</p>
+                        </a>
+                        <a class="page-inactive" href="#">
+                            <p class="page-inactive__text">2</p>
+                        </a>
+                        <a class="page-inactive" href="#">
+                            <p class="page-inactive__text">3</p>
+                        </a>
+                        <a class="page-inactive" href="#">
+                            <p class="page-inactive__text">4</p>
+                        </a>
+                        <p>...</p>
+                        <a class="page-inactive" href="#">
+                            <p class="page-inactive__text">40</p>
+                        </a>
+                        <a class="right-block" href="#">
+                            <p class="right-block__text">></p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+
+    <script src="/script.js"></script>
+</body>
+</html>
